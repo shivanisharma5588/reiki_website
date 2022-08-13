@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width = device-width ,initial-scale =1.0">
+	<title>Oneness Healing Touch</title>
+ <link rel="stylesheet" type="text/css" href = "style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
+ <!--------<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">----->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+<nav>
+	<a href="index.html"><img src="images/pg.png" height="120"></a>
+  <div class="nav-links" id="navLinks">
+  <i class="fa fa-times" onclick="hideMenu()"></i>
+ <ul>
+	<li><a href="">HOME</a></li>
+	<li><a href="">ABOUT US</a></li>
+	<li><a href="">SERVICES</a></li>
+	<li><a href="">TESTIMONIALS</a></li>
+	<li><a href="">CONTACT</a></li>
+ </ul>
+  </div>
+  <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+	<h1>Oneness Healing Touch</h1>
+	<p>Where Healing Comes From the Heart.<br> Healing body, mind and spirit!</p>
+	<a href="" class="hero-btn">Visit Us to Know More</a>
+</div>
+</section>
+
+<!------about us------>
+<section class="aboutus">
+	<h1>About Us</h1>
+	<p>Oneness Healing Center is a place dedicated to spreading the teachings of Reiki.<br> The foundation of Oneness Healing Center is laid by Reiki Grand Master Pradeep Sharma in 1995 in Bhopal,India.</p>
+<div class="row">
+	<div class="about-col">
+	<img src="images/banner1.jpg">
+	<h3>Energy Healing</h3>
+	<p>Energy healing is a holistic practice that activates the body’s subtle energy systems to remove blocks.By breaking through these energetic blockages, the inherent ability of the body and the mind to heal itself is stimulated.</p>
+</div>
+<div class="about-col">
+	<img src="images/banner.jpg" height="208">
+	<h3>Reiki Sessions</h3>
+	<p>There are different types as well various levels of healing.These sessions promotes relaxation,reduces stress and anxiety as well as promote physical and emotional healing.</p>
+</div>
+<div class="about-col">
+	<img src="images/banner2.jpg" height="208">
+	<h3>Reiki Crystals</h3>
+	<p>.Crystals are thought to add an extra element of healing to the treatment by helping to release emotional, mental, or spiritual blocks.</p>
+</div>
+</div>
+</section>
+<!----services------>
+<section class="servi">
+	<h1>Services</h1>
+	<p>While our focus and emphasis is on preventive healthcare as a way of maintaining a balanced and healthy body, holistic and complementary health therapies.</p>
+	<div class="row">
+		<div class="servi-col">
+		<img src ="images/reikihealing2.jpg">
+		<div class="layer">
+		<h3>Online Reiki Session</h3>
+		</div>
+		</div>
+		<div class="servi-col">
+		<img src ="images/reikihealing.jpg">
+		<div class="layer">
+		<h3>Offline Reiki Session</h3>
+		</div>
+		</div>
+		<div class="servi-col">
+		<img src ="images/crystals2.jpg">
+		<div class="layer">
+		<h3>Reiki Crystals</h3>
+		</div>
+		</div>
+	</div>
+</section>
+
+<!--------testimonials------->
+<section class="testi">
+
+<h1>Testimonials</h1>
+<p>All the knowledge and wisdom,methods and techniques,tools and practices shared are aimed at supporting your process so we use them to create the best version of our clients.</p>
+
+<div class="row">
+	<div class="testi-col">
+		<img src="images/user1.jpg">
+	<div>
+	<p>"I was completely blown away with how spot on sir with identifying places where my energy was blocked and things that I personally struggle with.Sir worked to balance to my energy and I left feeling so resotred and relaxed..what an incredible experience!"</p>
+	<h5>BRITTANY</h5>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star-o"></i>
+	</div>
+	</div>
+	<div class="testi-col">
+		<img src="images/user2.jpg">
+	<div>
+	<p>"I have been seeing sir for a couple of reiki sessions and each time I've left feeling recharged & relaxed. I've felt the stress melt away each time."</p>
+	<h5>KABBY</h5>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star"></i>
+	<i class="fa fa-star-half-o"></i>
+	</div>
+	</div>
+	</div>
+	</section>
+<!------------------call to action------------>
+<section class="cta">
+ <h1>Book yourself for online as well offline Reiki Healing Sessions<h1>
+ <a href="" class="hero-btn">CONTACT US</a>
+
+</section>
+
+
+
+<!--------------footer------------------->
+
+<section class="footer">
+<h4>About Us</h4>
+<p>We believe in the uniqueness and authenticity of our work and we are committed to providing our customers with the highest level of service. 
+<br>We help people move towards balance, wellness and health by using time tested complementary therapy treatments which activates the body’s natural healing response.</p>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-linkedin"></i>
+</div>
+<p> Made with <i class="fa fa-heart-o"></i> by Shivani Sharma</p>
+</section>
+
+
+
+
+
+
+
+<!------js for toggle menu------>
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+	navLinks.style.right="0";
+	}
+	function hideMenu(){
+	navLinks.style.right="-200px";
+	}
+</script>
+
+
+</body>
+</html>
